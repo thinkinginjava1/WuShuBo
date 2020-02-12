@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+width: auto;
+  height: auto;
+  margin: auto auto;
+  background-image: url("../img/denglu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#table{position: absolute;padding: 3px;top: 30%;left: 40%;margin: auto auto;margin-top: 50px;color: salmon;font-size: 30px;}
+#table #btn{height: 25px;width: 150px;border: 1px solid aqua;border-radius: 5px;background: pink;}
+#table #btn1{height: 25px;width: 150px;border: 1px solid aqua;border-radius: 5px;background: pink;}
+#table input{height: 30px;width:200px;border-radius: 6px 20px 6px 20px ;background: #b3d4fc;text-decoration: none;}
+

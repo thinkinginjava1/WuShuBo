@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 1200px;
+  margin: auto auto;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*logo*/
+/*#logo {
+  border: 1px solid red;
+  width: 100%;
+  height: 130px;
+  margin-top: 10px;
+
+}*/
+
+#user {
+  position: relative;
+  border-radius: 5px;
+}
+#user a {
+  text-decoration: none;
+  color: blueviolet;
+  border: 1px solid aqua;
+  background: pink;
+}
+
+#logo img {
+  height: 130px;
+  width: 100%;
+}
+
+/*导航*/
+#daohang {
+  height: 50px;
+  margin-top: 10px;
+}
+#daohang li {
+  display: inline;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+}
+#daohang li a {
+  border: 1px solid aqua;
+  border-radius: 30px;
+  width: 95px;
+  display: block;
+  color: aqua;
+  text-align: center;
+  text-decoration: none;
+}
+#daohang li a:hover {
+  background: cornsilk;
+}
+
+/*轮播图*/
+#banner {
+  height: 200px;
+  margin-top: 10px;
+  /*border: 1px solid red;*/
+  position: relative;
+}
+
+#banner img {
+  width: 1200px;
+  height: 200px;
+  border-radius: 30px;
+  border: 3px solid aqua;
+}
+
+.img1 {
+  display: block;
+}
+
+.img2 {
+  display: none;
+}
+
+.img3 {
+  display: none;
+}
+
+.img4 {
+  display: none;
+}
+
+.img5 {
+  display: none;
+}
+
+.img6 {
+  display: none;
+}
+
+.img7 {
+  display: none;
+}
+
+/*#banner span{
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  width: 30px;
+  height: 60px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 40px;
+}
+#banner #left{
+  left: 0px;
+}
+#banner #right{
+  right: 0px;
+}
+#banner ol{
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+}
+#banner ol li{
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  font-size: 15px;
+  line-height: 20px;
+  float: left;
+  margin: 0px 3px;
+  text-align: center;
+}
+#banner ol:active {
+  background: #fff;
+  color: red;
+}*/
+/*主页面*/
+#zhuye {height: 700px;border: 5px solid aqua;margin-top: 10px;border-radius: 30px;text-align: center;}
+#zhuye div .img {padding-left: 5px;width: 205px;height: 282px;}
+#zhuye #fanye {opacity: 0.3;text-align: center;font-size: 30px;background: aqua;border-radius: 5% 5%;}
+#zhuye table {margin: auto;padding: 3px;width: 1150px;}
+#zhuye table #biaoti {background: #b3d4fc;border-radius: 10% 10%;height: 30px;text-align: center;opacity: 0.5;}
+#zhuye td {width: 30px;margin: 3px;}
+
+
+/*页脚*/
+#foot {height: 60px;text-align: center;font-size: 10px;line-height: 60px;}
+
+ul {
+  list-style: none;
+}
