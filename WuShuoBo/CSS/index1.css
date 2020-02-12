@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  width: 1200px;
+  margin: auto auto;
+  background-image: url("../img/index1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#logo img {
+  height: 130px;
+  width: 100%;
+}
+
+/*导航*/
+#daohang {
+  height: 50px;
+  margin-top: 10px;
+}
+
+#daohang li {
+  display: inline;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+}
+
+#daohang li a {
+  border: 1px solid aqua;
+  border-radius: 30px;
+  width: 95px;
+  display: block;
+  color: aqua;
+  text-align: center;
+  text-decoration: none;
+}
+
+#daohang li a:hover {
+  background: cornsilk;
+}
+
+#buju {
+  margin-top: 20px;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  padding: 3px;
+  box-shadow: #b3d4fc 3px 3px;
+}
+
+#buju #left {
+  width: 800px;
+}
+
+#buju #h {
+  border-radius: 10px;
+  background: aliceblue;
+  opacity: 0.7;
+  line-height: 50px;
+  text-align: center;
+}
+
+#buju #left-content {
+  position: relative;
+}
+
+#buju #left-content img {
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid aqua;
+}
+
+#buju #select {
+  position: absolute;
+  width: 120px;
+  line-height: 33px;
+  top: 10px;
+  right: 0;
+  border-radius: 15px 25px 15px 25px;
+  background: burlywood;
+  text-align: center;
+}
+
+#right {
+  text-align: center;
+  position: relative;
+
+}
+
+#waibu #yuan {
+  position: absolute;
+  top: 75px;
+  left: 155px;
+  width: 125px;
+  height: 125px;
+  border-radius: 50% 50%;
+  background-image: url("../img/background.jpg");
+  background-size: 100% 100%;
+  box-shadow: pink;
+  z-index: 3;
+}
+
+#right #fang {
+  position: absolute;
+  z-index: 0;
+  width: 250px;
+  height: 300px;
+  background: whitesmoke;
+  opacity: 0.9;
+  top: 125px;
+  left: 100px;
+  border-radius: 100px 100px 10px 10px;
+}
+
+#right #right-img {border: 1px solid aqua;position: relative;}
+#right .img {width: 100px;margin: 3px;height: 150px;}
+#right-table {border: 3px solid aqua;border-radius: 5px;
+  position: absolute;top: 20px;left: 120px;}
